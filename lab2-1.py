@@ -1,0 +1,12 @@
+print("Paramjeetsinh Jadeja")
+print("24BEE138")
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print("Largest:", a)
+    print("Smallest:", b)
+elif b > a:
+    print("Largest:", b)
+    print("Smallest:", a)
+else:
+    print("Both numbers are equal:", a)
